@@ -1,0 +1,27 @@
+.search-container {
+  background-color: white;
+  width: 65%;
+  margin: auto;
+  padding: 30px 15px 15px 15px;
+}
+
+form {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-box {
+  width: 45%;
+}
+
+.filter {
+  width: 30%;
+}
+
+.submit-btn .btn {
+  width: 100px;
+}

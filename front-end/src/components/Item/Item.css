@@ -1,0 +1,39 @@
+.fav-item {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  background-color: #bedde0;
+  padding: 10px;
+  border: grey 1px solid;
+  gap: 20px;
+}
+
+.fav-item .img-text {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000030;
+}
+
+.fav-item .item-info {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.fav-item .item-info span {
+  font-weight: 500;
+}
+
+.fav-item .btns {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+img.logo {
+  width: 25px;
+}

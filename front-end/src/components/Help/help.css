@@ -1,0 +1,27 @@
+.help-container .back-btn,
+.help-container .blank {
+  width: 120px;
+}
+
+.help-container {
+  text-align: center;
+}
+
+.help {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  margin-bottom: 10%;
+}
+
+img.logo {
+  width: 25px;
+}
+
+h4 {
+  margin-top: 5%;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1em;
+}

@@ -1,0 +1,19 @@
+.header-container {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 90px;
+}
+
+.header-container .btn,
+.header-container .btn a {
+  width: 120px;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+}
+
+.header-container .header {
+  font-size: 28px;
+}

@@ -1,0 +1,40 @@
+.output-item {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  background-color: #bedde0;
+  padding: 10px;
+  border: grey 1px solid;
+  gap: 20px;
+}
+
+.output-item .img-text {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000030;
+}
+
+.output-item .item-info {
+  width: 100%;
+  padding-left: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.output-item .item-info span {
+  font-weight: 500;
+}
+
+.output-item .btns {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+img.logo {
+  width: 25px;
+}
