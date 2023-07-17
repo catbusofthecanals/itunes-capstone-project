@@ -47,10 +47,10 @@ app.get(`/search`, (req, res) => {
 if (process.env.NODE_ENV === "production") {
   const path = require("path");
   // serve static files
-  app.use(express.static(path.join(__dirname, "front-end/build")));
+  app.use(express.static(path.join(__dirname, "../front-end/build")));
   // handle React routing, return all requests to React app
   app.get("/*", function (req, res) {
-    res.sendFile(path.join(__dirname, "../front-end/build", "index.html"));
+    res.sendFile(path.resolve(__dirname, "front-end", "build", "index.html"));
   });
 }
 
