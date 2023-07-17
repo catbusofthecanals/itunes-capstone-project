@@ -4,6 +4,8 @@
 
 This task is to create a full-stack web application using React and Express that allows users to search for content within the iTunes Store and Apple Books Store by using the iTunes search API. The user can search for an item of media and can filter the search by selecting the media type. The user can also create a list of their favourites by selecting from the output list. The project has been tested with a snapshot test and unit tests for the front and back-end.
 
+The deployed render app for this project can be found here: https://itunes-capstone-project.onrender.com/ and the sources files can be found on github here: https://github.com/catbusofthecanals/itunes-capstone-project.
+
 ## Installation
 
 To run this project:
@@ -21,7 +23,7 @@ To run this project:
 
 Once the project is loaded in the browser, you will see a home screen with a search box and a header bar with links to the Help and Favourites pages. To search an item of media from the iTunes store, enter what you would like to search into the box and then select the dropdown menu to filter your searches to the relevant media type. If left alone then the search will return items of all format types. Once you have input and selected your choices, click the "Search" button and the ourtput results will display underneath the search bar.
 
-### Add a Favourite
+### Favourites
 
 To add one of the search results to your "Favourites" list on the right side of the screen, click on the star button on the right hand side of each item returned. Once selected, the project will alert you that the item has been added to your favourites and the star button will toggle to yellow.
 

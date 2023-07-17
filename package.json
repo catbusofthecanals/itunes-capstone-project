@@ -5,11 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "node app.js",
-    "server": "nodemon",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "npm run build --prefix client"
+    "start": "nodemon app.js",
+    "build": "cd ./front-end && npm install && npm run build"
   },
   "author": "",
   "license": "ISC",
