@@ -59,6 +59,7 @@ app.use(function (req, res, next) {
 }); */
 
 if (process.env.NODE_ENV === "production") {
+  const path = require("path");
   // serve static files
   app.use(express.static(path.join(__dirname, "front-end/build")));
   // handle React routing, return all requests to React app
