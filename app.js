@@ -44,27 +44,13 @@ app.get(`/search`, (req, res) => {
     });
 });
 
-/*const path = require("path");
-let root = path.join(__dirname, "..", "front-end/build");
-app.use(express.static(root));
-app.use(function (req, res, next) {
-  if (
-    req.method === "GET" &&
-    req.accepts("html") &&
-    !req.is("json") &&
-    !req.path.includes(".")
-  ) {
-    res.sendFile("index.html", { root });
-  } else next();
-}); */
-
 if (process.env.NODE_ENV === "production") {
   const path = require("path");
   // serve static files
   app.use(express.static(path.join(__dirname, "front-end/build")));
   // handle React routing, return all requests to React app
-  app.get("*", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "front-end", "build", "index.html"));
+  app.get("/*", function (req, res) {
+    res.sendFile(path.join(__dirname, "../front-end/build", "index.html"));
   });
 }
 
